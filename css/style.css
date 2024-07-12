@@ -311,6 +311,13 @@ a:focus {
     background-size: contain;
 }
 
+@media (max-width: 656px) {
+    .header .content-inner
+    {
+        background: none;
+    }
+}
+
 .header p {
     color: #D7C49E;
     font-size: 22px;
